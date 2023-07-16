@@ -3,7 +3,7 @@ authors = ["RM"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Mdbook Template"
+title = "Artificial Intelligence"
 [preprocessor.toc]
 command = "mdbook-toc"
 renderer = ["html"]
