@@ -23,6 +23,7 @@ jobs:
           token: ${{secrets.GITHUB_TOKEN}}
           use-toc: true
           toc-version: 'latest'
+          use-katex: true
 
       - run: mdbook build
 
