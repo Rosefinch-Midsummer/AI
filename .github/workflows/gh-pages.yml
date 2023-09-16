@@ -24,9 +24,9 @@ jobs:
           use-toc: true
           toc-version: 'latest'
       - name: Setup mdbook-katex
-        uses: magicgh/mdbook-katex-action@v1.1.0
+        uses: magicgh/mdbook-katex-action@v1
         with:
-            version: 'latest'
+          version: 'latest'
 
       - run: mdbook build
 
