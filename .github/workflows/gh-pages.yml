@@ -23,10 +23,9 @@ jobs:
           token: ${{secrets.GITHUB_TOKEN}}
           use-toc: true
           toc-version: 'latest'
-      - name: Setup mdbook-katex
-        uses: magicgh/mdbook-katex-action@v1
-        with:
-          version: 'latest'
+      - name: Build mdbook-katex
+        run: |
+          cargo build --release
 
       - run: mdbook build
 
